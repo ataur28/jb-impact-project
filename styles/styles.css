@@ -1,0 +1,859 @@
+/*------------------ 
+    google fonts
+-------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+/*----------------
+     header style start
+-------------------- */
+.header {
+    text-align: center;
+    background-color: rgba(255, 144, 14, 0.1);
+}
+/* vjv-------------- */
+.header-nav-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgray;
+    background-image: url(../images/header/headerImage.jpg), url(../images/banner/bannerGradient.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    
+}
+
+
+.header-website-name-logo{
+    display: flex;
+    gap: 6px;
+    padding: 0px 100px;
+}
+
+.header-website-logo{
+    height: 45px;
+    width: 63px;
+}
+
+.header-website-name{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 40px;
+    
+}
+
+.nav-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-left: 30px;
+}
+
+
+/* kfdhgkd----------- */
+
+.header-nav-section .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: lightgray;
+}
+
+.sticky-scroll-threshold {
+    scroll-behavior: smooth;
+    scroll-margin-top: 50px;
+}
+
+
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+/*-------------------------
+     banner section start
+--------------------------- */
+.banner-section {
+    background-color: lightgray;
+    background-image: url(../images/banner/bannerImage.png), url(../images/banner/bannerGradient.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    width: 100%;
+    height: 827px;
+}
+
+.banner-title {
+    font-weight: 500;
+    font-size: 56px;
+    color: #FFFFFF;
+    padding-top: 130px;
+    font-style: italic;
+}
+
+
+.banner-sub-title {
+    font-weight: 400;
+    font-size: 56px;
+    color: #FFFFFF;
+    padding: 20px 0;
+    font-style: italic;
+}
+
+.banner-icon {
+    height: 20px;
+    width: 20px;
+    background-color: #FFFFFF;
+    padding: 8px;
+    border: #FFFFFF;
+    border-radius: 50px;
+}
+
+.banner-description {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+.banner-date-and-time {
+    text-align: center;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+
+
+}
+
+.banner-sub-date-and-time {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+
+.primary-button {
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin: 16px 20px;
+    width: 158px;
+    height: 46px;
+    border: 1px solid #F34509;
+    background-color: transparent;
+    border-radius: 50px;
+}
+
+.primary-button:hover {
+    background-color: #F34509;
+    border: 1px solid #F34509;
+}
+
+/*-----------------------
+     banner section end
+------------------------- */
+
+/*-----------------------
+     header style end
+---------------------------- */
+
+/*--------------------------
+     Welcome style start
+---------------------------- */
+.welcome-section {
+    background-color: lightgray;
+    background-image: url(../images/welcome/welcomeImage.png), url(../images/banner/bannerGradient.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    width: 100%;
+    height: 534px;
+    background-attachment: fixed;
+}
+
+.welcome-title {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.welcome-description {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.welcome-section-organizer {
+    padding-top: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.welcome-section-logo {
+    width: 86px;
+    height: 86px;
+}
+
+.secondery-button {
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 16px;
+    margin: 16px 20px;
+    width: 244px;
+    height: 55px;
+    border: 1px solid #179748;
+    background-color: #179748;
+    border-radius: 50px;
+}
+
+/*----------------------
+     Welcome style end
+------------------------- */
+
+/*-------------------------
+     Our Event style start
+-------------------------- */
+.our-event {
+    width: 100%;
+    height: 306px;
+    background-color: #FFFFFF;
+}
+
+.event-title {
+    padding-top: 80px;
+    font-weight: 700;
+    font-size: 36px;
+    color: #000000;
+    text-align: center;
+}
+
+.event-description {
+    color: #000000;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.our-event-card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+}
+
+.event-card {
+    height: 303px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.event-image{
+    width: 100%;
+    height: 303px;
+}
+
+.event-card-gradian{
+    background-image: url(../images/banner/bannerGradient.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: hard-light;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    padding: 16px 0px;
+    
+}
+
+.event-card-title{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    padding-left: 16px;
+}
+
+.event-card-description{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 8px;
+    padding-left: 16px;
+}
+
+.event-date-and-icon{
+    background-color: #F34509;
+    height: 20px;
+    width: 98px;
+    padding: 8px;
+    position: absolute;
+    top: 8px;
+    right: 0;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.event-date-icon{
+    color: #FFFFFF;
+    width: 14px;
+    height: 9px;
+}
+
+.event-date{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.event-date-and-icon-two{
+    background-color: #F34509;
+    height: 20px;
+    width: 115px;
+    padding: 8px;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+
+/* khjk--------------------------- */
+.slider-container {
+    overflow: hidden;
+    position: relative;
+}
+
+.our-event-card {
+    transition: transform 0.5s ease;
+}
+
+.slider-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 26px;
+    padding: 8px;
+    cursor: pointer;
+    background-color: transparent;
+    color:#F34509
+    
+}
+
+.slider-button:hover{
+    background-color: #F34509;
+    color:#FFFFFF
+}
+
+#prevButton {
+    left: 10px;
+}
+
+#nextButton {
+    right: 10px;
+}
+
+
+/* khjk */
+
+
+.event-end-section{
+    display: flex;
+}
+
+
+.event-end-picture-one{
+    height: 538px;
+    width: 100%;
+}
+
+.event-end-picture{
+    background-color: #00110C;
+    background-image: url(../images/eventCardImages/eventEndImage2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: hard-light;
+    width: 100%;
+    height: 538px;
+    position: relative;
+}
+
+.event-end-picture-content{
+    position: absolute;
+    left: 100px;
+    top: 90px;
+    width: 508px;
+}
+
+
+.event-end-title{
+    color: #FFFFFF;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.event-end-description{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.event-section-button{
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top: 20px ;
+    width: 158px;
+    height: 46px;
+    border: 1px solid #F34509;
+    background-color: #F34509;
+    border-radius: 50px;
+}
+
+/*-------------------------
+      Our Event style end
+---------------------------- */
+
+
+/* box {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  } */
+
+  /* Styling for the colored thunder icon */
+  /* .box:hover .icon {
+    color: #3498db; 
+  } */
+
+  /* Styling for the thunder icon */
+  /* .icon {
+    font-size: 36px;
+  } */
+
+  /*-----------------------------------------
+      Meet Our Fantastic Speakers style start
+---------------------------------------------- */
+.our-speaker{
+    background-color: #00110C;
+    background-image: url(../images/outSpeaker/backgroundImages.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: hard-light;
+    padding-left: 50px;
+    
+}
+
+.our-speaker-title{
+    color: #FFFFFF;
+    font-size: 36px;
+    font-weight: 700;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.our-speaker-description{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.all-speaker{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4px;
+}
+
+.our-speaker-sub-title{
+    color: #FFFFFF;
+    font-size: 28px;
+    font-weight: 600;
+    padding-top: 40px;
+}
+
+.our-speaker-card{
+    height: 380px;
+    width: 376px;
+    background-color: #FFFFFF;
+    background-image: url(../images/outSpeaker/iconImage.png);
+    background-repeat: no-repeat;
+    background-size: 157px, 368px; 
+    margin-top: 50px;
+}
+
+.our-speaker-card:hover{
+    background-image: url(../images/outSpeaker/iconImage2.png);
+}
+
+.speaker-profile{
+    text-align: center;
+    
+}
+.speaker-image{
+    height: 244px;
+    width: 244px;
+    margin-top: 20px;
+}
+
+.speaker-name{
+    color: #000000;
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 16px;
+}
+
+.speaker-designation{
+    color: #000000;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+/*-------------------------------------------
+      Meet Our Fantastic Speakers style end
+---------------------------------------------- */
+
+
+/*----------------------
+      sponsored style start
+------------------------- */
+
+.sponsored-section{
+    background-color: #00110C;
+    background-image: url(../images/sponsoredLogo/sponsoredBackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sponsored-title{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.sponsored-company{
+    /* display: grid;
+    grid-template-columns: repeat(4, 1fr); */
+    display: flex;
+    justify-content:space-between;
+    gap: 8px;
+    padding:0px 50px;
+    padding-bottom: 50px;
+   
+}
+
+.sponsored-company-logo{
+    height: 50px;
+    width: 150px;
+    align-items: center;
+    
+}
+
+
+/*----------------------
+      sponsored style end
+------------------------- */
+
+/*----------------------
+      footer style start
+------------------------- */
+.footer{
+    background-color: #00110C;
+    background-image: url(../images/footer/footerImage.png), url(../images/footer/footerGradint.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: hard-light;
+}
+
+.footer-items{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 120px;
+    padding-bottom: 50px;
+}
+
+.footer-item{
+    padding-top: 50px;
+}
+
+.footer-website-name-logo{
+    display: flex;
+    gap: 6px;
+}
+
+.footer-website-logo{
+    height: 45px;
+    width: 63px;
+}
+
+.footer-website-name{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 40px;
+    
+}
+
+.footer-primary-button {
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top: 40px;
+    width: 158px;
+    height: 46px;
+    border: 1px solid #F34509;
+    background-color: transparent;
+    border-radius: 50px;
+}
+
+.footer-primary-button:hover {
+    background-color: #F34509;
+    border: 1px solid #F34509;
+}
+
+.footer-social-media-logo{
+    height: 40px;
+    width: 40px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+.footer-title{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-style: 24px;
+    margin-bottom: 10px;
+}
+
+.footer-contact{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.footer-contact-logo{
+   height: 20px; 
+   width: 20px;
+   margin: 10px 0px;
+}
+
+.footer-contact-info{
+    color:  #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+/*----------------------
+      footer style end
+------------------------- */
+
+/*----------------------------------------
+      Design and Developed by CodersBucket Ltd style start
+-------------------------------------------------- */
+.design-and-developed-section{
+    background-color: #00110C;
+}
+.design-and-developed-title{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 16px 0px;
+    text-align: center;
+}
+
+/*--------------------------------------------------
+      Design and Developed by CodersBucket Ltd style end
+----------------------------------------------------- */
+
+
+
+/*--------------------------
+     media query start
+---------------------------- -  */
+
+/*------------------------------
+     small device media query start
+-------------------------------- */
+
+@media only screen and (max-width:576px) {
+
+    .header-nav-section,
+    .nav-item,
+    .banner-date-and-time,
+    .welcome-section-organizer,
+    .event-end-section,
+    .footer-items {
+        flex-direction: column;
+    }
+
+    .banner-date-and-time{
+        padding-left: 30px;
+        
+    }
+
+    .welcome-section{
+        height: 600px;
+    }
+
+    .event-end-picture-content{
+        left: 20px;
+        width: 100%;
+        padding-right: 20px;
+    }
+
+    .event-end-title, 
+    .event-end-description{
+        padding-right: 20px;
+    }
+
+    .our-event-card {
+        grid-template-columns: 1fr;
+        transition:none;
+    }
+
+    #prevButton {
+        left: -50px;
+    }
+    
+    #nextButton {
+        right: -50px;
+    }
+    
+
+    .our-speaker{
+        padding-left: 20px; 
+    }
+
+    .sponsored-company{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 8px;
+
+    }
+    
+    .all-speaker{
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+
+}
+
+/*------------------------------
+     small device media query end
+-------------------------------- */
+
+/*------------------------------
+     medium device media query start
+-------------------------------- */
+@media only screen and (min-width:577px) and (max-width:991px) {
+    .header-nav-section,
+    .welcome-section-organizer,
+    .event-end-section {
+        flex-direction: column;
+    }
+
+    .welcome-section{
+        height: 600px;
+    }
+
+    .event-end-picture-content{
+        left: 20px;
+        width: 100%;
+        padding-right: 20px;
+    }
+
+    .event-end-title, 
+    .event-end-description{
+        padding-right: 20px;
+    }
+    .our-event-card,
+    .all-speaker{
+        grid-template-columns: repeat(2, 1fr)
+    }
+
+    .our-event-card {
+        transition:none;
+    }
+
+    #prevButton {
+        left: -50px;
+    }
+    
+    #nextButton {
+        right: -50px;
+    }
+
+    .our-speaker{
+        padding-left: 20px; 
+    }
+
+    .sponsored-company{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+    }
+
+    .footer-items{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px
+    }
+    
+
+}
+
+/*------------------------------
+     medium device media query end
+-------------------------------- */
+
+/*------------------------------
+     medium device media query end
+-------------------------------- */
