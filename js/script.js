@@ -1,22 +1,5 @@
 
 
-// Nav Bar Sticky at Top
-
-document.addEventListener("DOMContentLoaded", function() {
-    var headerNav = document.getElementById("headerNav");
-    var scrollThreshold = document.querySelector(".sticky-scroll-threshold");
-
-    window.addEventListener("scroll", function() {
-        if (window.scrollY > scrollThreshold.offsetTop) {
-            headerNav.classList.add("sticky");
-        } else {
-            headerNav.classList.remove("sticky");
-        }
-    });
-});
-
-
-
 
 // Banner Section Slider
 

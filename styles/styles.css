@@ -71,8 +71,6 @@ nav a {
 }
 
 
-/* kfdhgkd----------- */
-
 .header-nav-section .sticky {
     position: fixed;
     top: 0;
@@ -350,8 +348,6 @@ nav a {
     gap: 4px;
 }
 
-
-/* khjk--------------------------- */
 .slider-container {
     overflow: hidden;
     position: relative;
@@ -385,10 +381,6 @@ nav a {
 #nextButton {
     right: 10px;
 }
-
-
-/* khjk */
-
 
 .event-end-section{
     display: flex;
@@ -448,28 +440,7 @@ nav a {
       Our Event style end
 ---------------------------- */
 
-
-/* box {
-    width: 100px;
-    height: 100px;
-    background-color: gray;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-  } */
-
-  /* Styling for the colored thunder icon */
-  /* .box:hover .icon {
-    color: #3498db; 
-  } */
-
-  /* Styling for the thunder icon */
-  /* .icon {
-    font-size: 36px;
-  } */
-
-  /*-----------------------------------------
+/*-----------------------------------------
       Meet Our Fantastic Speakers style start
 ---------------------------------------------- */
 .our-speaker{
